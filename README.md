@@ -128,5 +128,6 @@ Here I'll talk about the approach I took, what techniques I used, what worked an
 
 Reference:
 
-[Advanced Lane Finding](https://medium.com/typeiqs/advanced-lane-finding-c3c8305f074)
-[Teaching Cars To See — Advanced Lane Detection Using Computer Vision](https://towardsdatascience.com/teaching-cars-to-see-advanced-lane-detection-using-computer-vision-87a01de0424f)
+1. [Advanced Lane Finding](https://medium.com/typeiqs/advanced-lane-finding-c3c8305f074)
+
+2. [Teaching Cars To See — Advanced Lane Detection Using Computer Vision](https://towardsdatascience.com/teaching-cars-to-see-advanced-lane-detection-using-computer-vision-87a01de0424f)
