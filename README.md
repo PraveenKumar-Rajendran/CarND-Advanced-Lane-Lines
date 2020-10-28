@@ -1,6 +1,6 @@
-## Writeup Template
+## Udacity Advanced Lane Lines Finding Project
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
+### In the previous project of SDCND we explored basic computer vision to perform lane line detection using canny edge detection, ROI and Hough transform techniques to find and draw lane lines on the road. In this project more advanced lane line finding techniques like Gradient, Thresholding, Color transforms and Perspective transform to perform lane finding more robustly.
 
 ---
 
@@ -26,6 +26,11 @@ The goals / steps of this project are the following:
 [image5]: ./examples/color_fit_lines.jpg "Fit Visual"
 [image6]: ./examples/example_output.jpg "Output"
 [video1]: ./project_video.mp4 "Video"
+[GIF]: ./project_video_output_final.gif "GIF"
+
+
+![alt text][GIF]
+
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -85,10 +90,10 @@ This resulted in the following source and destination points:
 
 | Source        | Destination   | 
 |:-------------:|:-------------:| 
-| 585, 460      | 320, 0        | 
-| 203, 720      | 320, 720      |
-| 1127, 720     | 960, 720      |
-| 695, 460      | 960, 0        |
+| 580, 460      | 200, 0        | 
+| 740, 460      | 1080, 0      |
+| 1100, 670     | 1080, 720      |
+| 270, 670      | 200, 720        |
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
